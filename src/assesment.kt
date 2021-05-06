@@ -27,12 +27,14 @@ fun checkAge(age:Int){
         println("Serve Cocacola")
     }
 }
-fun sortNames(names:Array<String>){
+fun sortNames(names:Array<String>):Int{
+    var count=0;
      for (name in names){
         if(name.length>4){
-           println(name)
+           count++
         }
     }
+    return count
 }
 class Human(var name:String,var age:Int,var weight:Double){
     fun eat(foodWeight:Int){
@@ -74,7 +76,7 @@ fun game (player1:String,player2:String){
       var rock="rock"
     var scissor="scissor"
     var paper="paper"
-    if(player1=="rock"&& player1==rock){
+    if(player1=="rock"&& player2==rock){
 
     }
 
