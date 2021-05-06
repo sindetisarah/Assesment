@@ -71,8 +71,10 @@ fun modulus(num1:Int,num2:Int){
 
 }
 fun game (player1:String,player2:String){
-    if (player1=="Rock"){
-        println("Paper")
+      var rock="rock"
+    var scissor="scissor"
+    var paper="paper"
+    if(player1=="rock"&& player1==rock){
 
     }
 
